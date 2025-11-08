@@ -1,0 +1,102 @@
+[
+    {
+        "id": "1",
+        "title": "Grand Theft Auto V",
+        "coverPhoto": "https://example.com/images/gta5.png",
+        "category": "Action-Adventure",
+        "downloadLink": "https://store.rockstargames.com/game/buy-gta-v",
+        "description": "GTA V is an open-world action game where players explore Los Santos, pull off heists, and live the criminal life in stunning detail.",
+        "ratings": "4.8",
+        "developer": "Rockstar Games"
+    },
+    {
+        "id": "2",
+        "title": "Red Dead Redemption 2",
+        "coverPhoto": "https://example.com/images/rdr2.png",
+        "category": "Action-Adventure",
+        "downloadLink": "https://store.rockstargames.com/game/buy-red-dead-redemption-2",
+        "description": "Experience the end of the Wild West era as Arthur Morgan in this breathtaking story-driven open-world masterpiece.",
+        "ratings": "4.9",
+        "developer": "Rockstar Games"
+    },
+    {
+        "id": "3",
+        "title": "Cyberpunk 2077",
+        "coverPhoto": "https://example.com/images/cyberpunk2077.png",
+        "category": "RPG",
+        "downloadLink": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
+        "description": "Cyberpunk 2077 is a futuristic RPG set in Night City where choices shape your story as a cyber-enhanced mercenary.",
+        "ratings": "4.4",
+        "developer": "CD Projekt Red"
+    },
+    {
+        "id": "4",
+        "title": "Elden Ring",
+        "coverPhoto": "https://example.com/images/elden_ring.png",
+        "category": "Action RPG",
+        "downloadLink": "https://store.steampowered.com/app/1245620/ELDEN_RING/",
+        "description": "Elden Ring offers a vast fantasy world filled with danger, mystery, and epic battles designed by FromSoftware and George R. R. Martin.",
+        "ratings": "4.9",
+        "developer": "FromSoftware"
+    },
+    {
+        "id": "5",
+        "title": "Counter-Strike 2",
+        "coverPhoto": "https://example.com/images/cs2.png",
+        "category": "FPS",
+        "downloadLink": "https://store.steampowered.com/app/730/CounterStrike_2/",
+        "description": "The next evolution of Counter-Strike delivers ultra-precise gunplay, competitive modes, and realistic visuals using Source 2 engine.",
+        "ratings": "4.6",
+        "developer": "Valve"
+    },
+    {
+        "id": "6",
+        "title": "Valorant",
+        "coverPhoto": "https://example.com/images/valorant_pc.png",
+        "category": "FPS",
+        "downloadLink": "https://playvalorant.com/",
+        "description": "Valorant is a tactical 5v5 shooter where precise aim meets unique agent abilities for intense competitive matches.",
+        "ratings": "4.7",
+        "developer": "Riot Games"
+    },
+    {
+        "id": "7",
+        "title": "The Witcher 3: Wild Hunt",
+        "coverPhoto": "https://example.com/images/witcher3.png",
+        "category": "RPG",
+        "downloadLink": "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/",
+        "description": "Play as Geralt of Rivia, a monster hunter searching for his adopted daughter in a world full of rich stories and dangerous beasts.",
+        "ratings": "4.9",
+        "developer": "CD Projekt Red"
+    },
+    {
+        "id": "8",
+        "title": "Assassin’s Creed Valhalla",
+        "coverPhoto": "https://example.com/images/ac_valhalla.png",
+        "category": "Action RPG",
+        "downloadLink": "https://store.ubisoft.com/game/assassins-creed-valhalla",
+        "description": "Become Eivor, a Viking warrior exploring England’s Dark Ages, and build your clan’s legacy through raids and battles.",
+        "ratings": "4.5",
+        "developer": "Ubisoft"
+    },
+    {
+        "id": "9",
+        "title": "Battlefield 2042",
+        "coverPhoto": "https://example.com/images/battlefield2042.png",
+        "category": "FPS",
+        "downloadLink": "https://store.steampowered.com/app/1517290/Battlefield_2042/",
+        "description": "Battlefield 2042 offers massive warfare with dynamic maps, advanced vehicles, and all-out chaos in large-scale multiplayer battles.",
+        "ratings": "4.2",
+        "developer": "DICE"
+    },
+    {
+        "id": "10",
+        "title": "Forza Horizon 5",
+        "coverPhoto": "https://example.com/images/forza_horizon5.png",
+        "category": "Racing",
+        "downloadLink": "https://store.steampowered.com/app/1551360/Forza_Horizon_5/",
+        "description": "Explore Mexico’s diverse landscapes and race in hundreds of customizable cars in this stunning open-world driving adventure.",
+        "ratings": "4.8",
+        "developer": "Playground Games"
+    }
+]
