@@ -7,8 +7,8 @@ const Home = () => {
             <header className="absolute top-0 left-0 w-full z-50">
                 <div className=' p-7 flex items-center justify-between'>
                     <div className='flex gap-3.5'>
-                    <img src="/src/images/64px-Rockstar_Games_Logo.svg.png" alt="" srcset="" />
-                    <h1 className='text-5xl'>GameHub</h1>
+                        <img src="/src/images/64px-Rockstar_Games_Logo.svg.png" alt="" srcset="" />
+                        <h1 className='text-5xl'>GameHub</h1>
                     </div>
                     <ul className='flex gap-8'>
                         <li>
@@ -89,6 +89,41 @@ const Home = () => {
                     </div>
                 </div>
             </main>
+            <footer className="footer mt-5 sm:footer-horizontal bg-base-200 text-base-content p-10 poppins-regular">
+                <nav>
+                    <h6 className="footer-title">Services</h6>
+                    <a className="link link-hover">Branding</a>
+                    <a className="link link-hover">Design</a>
+                    <a className="link link-hover">Marketing</a>
+                    <a className="link link-hover">Advertisement</a>
+                </nav>
+                <nav>
+                    <h6 className="footer-title">Company</h6>
+                    <a className="link link-hover">About us</a>
+                    <a className="link link-hover">Contact</a>
+                    <a className="link link-hover">Jobs</a>
+                    <a className="link link-hover">Press kit</a>
+                </nav>
+                <nav>
+                    <h6 className="footer-title">Legal</h6>
+                    <a className="link link-hover">Terms of use</a>
+                    <a className="link link-hover">Privacy policy</a>
+                    <a className="link link-hover">Cookie policy</a>
+                </nav>
+                <form>
+                    <h6 className="footer-title">Newsletter</h6>
+                    <fieldset className="w-80">
+                        <label>Enter your email address</label>
+                        <div className="join">
+                            <input
+                                type="text"
+                                placeholder="username@site.com"
+                                className="input input-bordered join-item" />
+                            <button className="btn btn-primary join-item">Subscribe</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </footer>
         </div>
     );
 };
