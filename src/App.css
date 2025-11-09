@@ -8,3 +8,9 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.rubik-normal {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
