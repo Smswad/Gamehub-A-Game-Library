@@ -3,6 +3,7 @@ import Home from "../layouts/Home";
 import Login from "../layouts/Login";
 import Register from "../layouts/Register";
 import NotFound from "../layouts/NotFound";
+import Authentication from "../layouts/Authentication";
 
 
 const router = createBrowserRouter([
@@ -12,15 +13,18 @@ const router = createBrowserRouter([
     },
     {
         path: "/auth",
-        element: <h2>Authentication</h2>
-    },
-    {
-        path: "/login",
-        element: <Login></Login>
-    },
-    {
-        path: "/register",
-        element: <Register></Register>
+        element: <Authentication></Authentication>,
+        children:
+            [
+                {
+                    path: "/auth/login",
+                    element: <Login></Login>
+                },
+                {
+                    path: "/auth/register",
+                    element: <Register></Register>
+                }
+            ]
     },
     {
         path: "/details",
